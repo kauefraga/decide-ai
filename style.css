@@ -52,3 +52,18 @@ main {
   background-color: var(--coroa-bg-color);
   color: var(--coroa-fg-color);
 }
+
+@keyframes flip {
+  0% {
+    transform: rotateX(0deg);
+  }
+
+  100% {
+    /* 4 voltas */
+    transform: rotateX(1440deg);
+  }
+}
+
+.flip-animation {
+  animation: flip 1s ease-in-out;
+}
