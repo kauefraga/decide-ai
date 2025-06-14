@@ -7,10 +7,12 @@ function flipCoin() {
 
   if (result < 0.5) {
     coinImage.src = 'assets/cara.png';
+    coinImage.setAttribute('alt', 'moeda de um real com a cara virada para cima');
     resultMessage.textContent = 'cara';
     resultMessage.className = 'cara';
   } else {
     coinImage.src = 'assets/coroa.png';
+    coinImage.setAttribute('alt', 'moeda de um real com a coroa virada para cima');
     resultMessage.textContent = 'coroa';
     resultMessage.className = 'coroa';
   }
