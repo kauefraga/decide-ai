@@ -1,4 +1,4 @@
-# Decide aí <img src="assets/cara.png" alt="moeda de um real com a cara para cima" width="40" height="40" align="center" />
+# Decide aí <img src="assets/coroa.png" alt="moeda de um real com a coroa para cima" width="40" height="40" align="center" />
 
 [![Licença do projeto Decide Aí](https://img.shields.io/github/license/kauefraga/constantia)](https://github.com/kauefraga/decide-ai/blob/main/LICENSE)
 [![Último commit](https://img.shields.io/github/last-commit/kauefraga/decide-ai/main)](https://github.com/kauefraga/constantia)
@@ -8,6 +8,7 @@ Quer tomar alguma decisão 50/50? [**Decide aí** usando o tradicional cara ou c
 Usando HTML, CSS e JavaScript puro, implementei
 
 - [x] Tradicional jogo cara ou coroa, usando a moeda de 1 real
+- [x] Layout simples e responsivo
 - [x] Tema claro e escuro
 - [x] Animação da moeda girando
 - [ ] Múltiplos idiomas
